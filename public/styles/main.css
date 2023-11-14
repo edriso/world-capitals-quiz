@@ -109,3 +109,13 @@ button:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, color 0.3s;
 }
+
+body.flags-app {
+  background-image: url(../images/flags-background.jpg);
+}
+body.flags-app button {
+  background-color: #054b92;
+}
+body.flags-app button:hover {
+  background-color: #f88783;
+}
